@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+
+.headline{
+    text-align: center;
+    font-family: 'Shadows Into Light', 'Pacifico', 'Lakki Reddy', cursive;
+}
+
+@media (max-width : 900px) {
+    .top-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+}
+
+.top-section{
+    padding-left: 1%;
+    border: 1px solid #333;
+    display: flex;
+    align-items: stretch;
+}
+.main  {
+    width: 50%;
+    padding: 0% 1%;
+    order: 2;
+    text-align: justify;
+    border-right: 3px solid rgb(105, 105, 105);
+    border-left: 3px solid rgb(105, 105, 105);
+}
+
+.main-image{
+    width: 100%;
+}
+.aside-article-1{
+    width: 25%;
+    order: 1;
+}
+
+.aside-article-2{
+    width: 25%;
+    padding: 0 1%;
+    order: 3;
+    text-align: justify;
+}
+
+.bottom-section{
+    width: 100%;
+    border: 1px solid #333;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+.aside-article-3{
+    width: 25%;
+    padding: 1%;
+}
+.aside-article-4{
+    border-left: 3px solid rgb(105, 105, 102);
+    width: 75%;
+    margin-left: 1%;    
+    display: flex;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+li:nth-child(1){
+    background-color: bisque;
+    height: 20%;
+}
+li:nth-child(2){
+    background-color: hotpink;
+    height: 20%;
+}
+li:nth-child(3){
+    background-color: beige;
+    height: 20%;
+}
+li:nth-child(4){
+    background-color: orange;
+    height: 20%;
+}
+li:nth-child(5){
+    background-color: tomato;
+    height: 20%;
+}
+ul .nav-list{
+    list-style-type: none;
+}
+.nav-list a{
+    text-decoration: none;
+}
